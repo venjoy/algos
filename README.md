@@ -1,3 +1,3 @@
 # Algos
 
-Algorithms implemented in TypeScript.
+Algorithms implemented in various programming languages.
