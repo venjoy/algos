@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+docker run --rm -v "$DIR/src":/usr/src/test -w "/usr/src/test/tests/$1" golang go build -v
